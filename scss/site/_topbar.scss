@@ -1,28 +1,81 @@
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul, .top-bar-section {
+		background:transparent;
+	}
+
+.contain-to-grid {
+	background: $primary-color url(../assets/img/top-bar-bg.jpg);
+}
+
+.top-bar {
+	ul li a {
+		font-family: $ranger;
+		text-align: center;
+		color: white;
+		font-size: 1.25em;
+		line-height: 1.5em;
+		text-decoration: none;
+		.dropdown a {
+			font-family: $rale!important;
+			font-size: 1em;
+		}
+	}
+}
+.top-bar-section ul li {
+	background: transparent;
+}
+
+.top-bar-section ul li > a.button.alert {
+	font-size: 1.1em;
+	margin-top: -1px;
+	height: auto;
+	top: 6px;
+}
+
+
+.top-bar-section .dropdown li:not(.has-form) a:not(.button){
+	font-family: $rale!important;
+	font-size: 1em;
+	text-align: left;
+}
+
+.sub-nav li a {
+	font-family: $ranger;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+
+
 // Add some whitespace between top bar and content
 .top-bar-container, .tab-bar {
 	margin-bottom: rem-calc(32);
 }
 
-.top-bar .name {
-	h1 a { font-weight: 500; }
-}
+/* FoundationPress */
 
-// A more subtle background color for the active menu item
-.top-bar-section li.active:not(.has-form) a:not(.button)  {
-	background: #272727;
-}
-.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
-	background: #202020;
-}
+	// .top-bar .name {
+	// 	h1 a { font-weight: 500; }
+	// }
 
-// Switch between the mobile menu (tab-bar) and desktop menu (topbar) based on a custom $topbar-breakpoint value.
-// The $topbar-breakpoint can be edited in _custom-settings.scss. 
+	// // A more subtle background color for the active menu item
+	// .top-bar-section li.active:not(.has-form) a:not(.button)  {
+	// 	background: #272727;
+	// }
+	// .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
+	// 	background: #202020;
+	// }
 
-@media only screen and (min-width: ($topbar-breakpoint + em-calc(1))) {
-  .tab-bar { display: none; }
-}
+	// Switch between the mobile menu (tab-bar) and desktop menu (topbar) based on a custom $topbar-breakpoint value.
+	// The $topbar-breakpoint can be edited in _custom-settings.scss. 
 
-// Hide the topbar when the screen size is smaller than the topbar breakpoint
-@media only screen and (max-width: $topbar-breakpoint) {
-  .top-bar { display: none; }
-}
+	// @media only screen and (min-width: ($topbar-breakpoint + rem-calc(1))) {
+	//   .tab-bar { display: none; }
+	// }
+
+	// // Hide the topbar when the screen size is smaller than the topbar breakpoint
+	// @media only screen and (max-width: $topbar-breakpoint) {
+	//   .top-bar { display: none; }
+	// }

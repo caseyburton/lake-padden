@@ -3,14 +3,47 @@
 	This file will only contain uncommented settings that are actually used in the theme.
 */
 
-// We use these to define default font stacks
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
-// We use these to define default font weights
-$font-weight-normal: normal !default;
-$font-weight-bold: bold !default;
+/* Colors */
+	$primary-color: rgba(0,156,208, 1);
+	$secondary-color: #999;
+	$alert-color: #f04124;
+	$success-color: #43AC6A;
+	$warning-color: #f08a24;
+	$info-color: #a0d3e8;
+
+/* Custom Variables */
+
+	$rale: 'Raleway', sans-serif;
+	$ranger: 'Ranger', sans-serif;
+
+/* Typography */
+
+	$font-family-sans-serif: $rale "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+	$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+
+	$header-font-family: $rale;
+	$header-font-weight: 900;
+	$paragraph-font-family: $rale;
+
+	$anchor-text-decoration: underline;
+	$anchor-font-color: $primary-color;
+
+	$hr-margin: rem-calc(40);
+
+	$font-weight-normal: normal !default;
+	$font-weight-bold: bold !default;
+
+/* Mobile */
+
+	$off-canvas-bg: $primary-color;
+
+$sub-nav-font-color: $secondary-color;
+$topbar-bg-color: rgba(0,0,0,0);
+$topbar-height: rem-calc(50);
+$topbar-sticky-class: ".sticky";
+
 
 // Foundation color naming conventions
 $white       : #FFFFFF;
@@ -33,23 +66,16 @@ $oil         : #333333;
 $jet         : #222222;
 $black       : #000000;
 
-// We use these as default colors throughout
-$primary-color: #008CBA;
-$secondary-color: #e7e7e7;
-$alert-color: #f04124;
-$success-color: #43AC6A;
-$warning-color: #f08a24;
-$info-color: #a0d3e8;
 
 // We use these to control various global styles
-$body-bg: $white;
-$body-font-color: $jet;
-$body-font-family: $font-family-sans-serif;
-$body-font-weight: $font-weight-normal;
-$body-font-style: normal;
-$header-font-weight: 300;
-$header-text-rendering: optimizeLegibility;
-$topbar-link-weight: bold;
+// $body-bg: $white;
+// $body-font-color: $jet;
+// $body-font-family: $font-family-sans-serif;
+// $body-font-weight: $font-weight-normal;
+// $body-font-style: normal;
+// $header-font-weight: 300;
+// $header-text-rendering: optimizeLegibility;
+// $topbar-link-weight: bold;
 
 // Media query breakpoints
 $small-breakpoint:  em-calc(640);

@@ -3,51 +3,490 @@
  Demo: http://foundationpress.olefredrik.com
 */
 
-// Prettify type rendering
-body {
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}
+/* Custom Variables */
 
-// Reset margin and padding on figure element
-figure { 
-	margin: 0; 
-	padding: 0;
-}
+ $rale: 'Raleway', sans-serif;
 
-// Add some basic styling for figcaption element
-figcaption {
-	margin-bottom: rem-calc(20);
-	margin-top: rem-calc(10); 
-	color: #6f6f6f; 
-}
+ $ranger: 'Ranger', sans-serif;
 
-// Add the alignment classes used by the WordPress media library
 
-.alignleft {
-	float: left;
-}
+/* FoundationPress Edits */
 
-.alignright {
-	float: right;
-}
+	// Prettify type rendering
+	body {
+		-webkit-font-smoothing: antialiased;
+		text-rendering: optimizeLegibility;
+	}
 
-.aligncenter {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+	// Reset margin and padding on figure element
+	figure { 
+		margin: 0; 
+		padding: 0;
+	}
 
-blockquote.alignleft,
-img.alignleft {
-	margin: rem-calc(7) rem-calc(24) rem-calc(7) 0;
-}
+	// Add some basic styling for figcaption element
+	figcaption {
+		margin-bottom: rem-calc(20);
+		margin-top: rem-calc(10); 
+		color: #6f6f6f; 
+	}
 
-.wp-caption.alignleft {
-	margin: rem-calc(7) rem-calc(14) rem-calc(7) 0;
-}
+	// Add the alignment classes used by the WordPress media library
 
-blockquote.alignright,
-img.alignright {
-	margin: rem-calc(7) 0 rem-calc(7) rem-calc(24);
-}
+	.alignleft {
+		float: left;
+	}
+
+	.alignright {
+		float: right;
+	}
+
+	.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	blockquote.alignleft,
+	img.alignleft {
+		margin: rem-calc(7) rem-calc(24) rem-calc(7) 0;
+	}
+
+	.wp-caption.alignleft {
+		margin: rem-calc(7) rem-calc(14) rem-calc(7) 0;
+	}
+
+	blockquote.alignright,
+	img.alignright {
+		margin: rem-calc(7) 0 rem-calc(7) rem-calc(24);
+	}
+
+ /**
+ * .0 Effects
+ * ----------------------------------------------------------------------------
+ */
+
+		.texture {
+		 	mask-position: 50px;
+			mask-image: url("../assets/img/texture-mask.png");
+		  -webkit-mask-image: url("../assets/img/texture-mask.png");
+		  -webkit-mask-position: 50px;
+		 }
+
+		.texture-light {
+		 	mask-position: 50px;
+			mask-image: url("../assets/img/texture-mask-light.png");
+		  -webkit-mask-image: url("../assets/img/texture-mask-light.png");
+		  -webkit-mask-position: 50px;
+		 }
+
+		.img-mask {
+		 		mask-image: url("../assets/img/texture-mask.png");
+		  -webkit-mask-image: url("../assets/img/texture-mask.png");
+		  -webkit-mask-position: 50px;
+		 }
+
+		.drop {
+		 	  filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='3' dy='0' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+			   -webkit-filter: drop-shadow(3px 0px 3px rgba(0,0,0,0.5));
+			    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=3, OffY=0, Color='#444')";
+		 }
+
+		.rev {
+		 	color: white;
+		 }
+
+		.animate {
+		    transition: all 0.5s ease-in-out;
+		}
+
+		.frame {
+			padding: 25px;
+			background: url(../assets/img/paper.png);
+			background: rgba(255,255,255,.8);
+		}
+
+/**
+ * 1.0 Typography
+ * ----------------------------------------------------------------------------
+ */
+
+	em {font-style:normal;}
+
+	a {
+	 	font-weight: 500;
+	}
+
+	.caption {
+		text-align: center;
+		font-size: .75em;
+	}
+
+	.highlight-box {
+		background-color: fade-out($primary-color, .75)!important;
+		padding: 25px;
+	}
+
+/**
+ * 2.0 Header, sidebar and footer
+ * ----------------------------------------------------------------------------
+ */
+
+	#main-branding {
+		background: url(../assets/img/post-bg.jpg) no-repeat center top;
+		background-size: cover;
+		min-height: 400px;
+		text-align: center;
+		padding: 25px;
+		z-index: 25;
+		#main-padden-logo {
+			margin: 10px 0px;
+		}
+		#main-rebound-logo {
+			margin: 30px 0px 15px;
+			p, h3 {
+			color:white!important;
+			}
+			p {
+			}
+			h3 {
+				font-family:$ranger;
+				font-size: 1.5em;
+				line-height: .5em;
+			}
+		}
+
+	}
+
+	#race-intro {
+		background: url(../assets/img/runner-man.png) no-repeat top left;
+		height: 620px;
+		color: white;
+		#race-intro-text {
+			margin: 240px 0 0 10px;
+			    -webkit-transform: rotate(-1deg);
+			    -o-transform: rotate(-1deg); 
+			    transform: rotate(-1deg);
+		}
+		h1 {
+			font-family: $ranger;
+			font-size: 5.5em;
+			line-height: .8em;
+			color: $primary-color;
+			text-shadow: 2px 2px rgba(255,255,255, .8);
+		}
+		p {
+			margin-bottom: 0px;
+			font-size: 1.25em;
+			em {font-weight: 900;}
+		}
+	}
+
+	/**
+	 * 2.1 Nav
+	 * ----------------------------------------------------------------------------
+	 */
+
+	.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul, .top-bar-section {
+		background:transparent;
+	}
+
+	.contain-to-grid {
+		background: $primary-color url(../assets/img/top-bar-bg.jpg);
+	}
+
+	.top-bar {
+
+		ul li a {
+			font-family: $ranger;
+			text-align: center;
+			color: white;
+			font-size: 1.25em;
+			line-height: 1.5em;
+			text-decoration: none;
+			.dropdown a {
+				font-family: $rale!important;
+				font-size: 1em;
+			}
+		}
+	}
+	.top-bar-section ul li {
+		background: transparent;
+	}
+
+	.top-bar-section ul li > a.button.alert {
+		font-size: 1.1em;
+		margin-top: -1px;
+	}
+
+
+	.top-bar-section .dropdown li:not(.has-form) a:not(.button){
+		font-family: $rale!important;
+		font-size: 1em;
+		text-align: left;
+	}
+
+	 .sub-nav li a {
+	 	font-family: $ranger;
+	 	text-align: center;
+	 	color: white;
+	 	font-size: 1.5em;
+	 	line-height: 1.5em;
+	 }
+
+/**
+ * 3.0 Content
+ * ----------------------------------------------------------------------------
+ */
+
+	 .inner-wrap {
+	 	background: black url(../assets/img/main-bg-top.jpg) no-repeat center top;
+	 }
+
+	.page-section {
+		background: white url(../assets/img/paper.png);
+		padding: 50px;
+		h2 {
+			line-height: .95em;
+			a{
+			font-weight: 900;
+			text-decoration: none;
+			}
+		}
+	}
+
+	.home-section {
+		margin-bottom: 50px;
+		p{
+			a:hover{
+				background:$primary-color!important;
+				color: white!important;
+				text-decoration: none;
+			 		mask-image: url("../assets/img/texture-mask.png");
+			  -webkit-mask-image: url("../assets/img/texture-mask.png");
+			  -webkit-mask-position: 50px;
+			}
+		}
+	}
+
+	.home-section {
+		background: white url(../assets/img/paper.png);
+		padding: 50px;
+		h1 {
+			font-size: rem-calc(75);
+			font-family: $ranger;
+			color: $primary-color;
+			letter-spacing: -.05em;
+			 	mask-position: 50px;
+			mask-image: url("../assets/img/texture-mask.png");
+		  -webkit-mask-image: url("../assets/img/texture-mask.png");
+		  -webkit-mask-position: 50px;
+		}
+		h3 {
+			margin:25px 0!important;
+			border-bottom: solid 5px;
+			font-family: $ranger;
+			letter-spacing: -.05em;
+		}
+		p {
+			strong {
+				text-transform: uppercase;
+				font-weight: 900;
+			}
+		}
+		ul {
+			li {margin: 15px 0;}
+		}
+		.button {
+			margin: 25px 0;
+			font-family: $ranger;
+			font-size: 1.5em;
+			color: white!important;
+		}
+	}
+
+	.button  {
+			padding: 10px;
+			a {
+			font-family: $ranger;
+			font-size: 2.25em;
+			color: white!important;
+			text-decoration: none;
+		}
+	}
+
+	.sub-header {
+		font-size: 1.7em;
+		font-weight: 100;
+		line-height: 1.95em;
+	}
+
+
+	#race-map {
+		img{
+			background-image: url(../assets/img/paper.png);
+	//		border: solid 50px none;
+	 	  filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='3' dy='0' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+		   -webkit-filter: drop-shadow(3px 0px 3px rgba(0,0,0,0.5));
+		    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=3, OffY=0, Color='#444')";
+		}
+	}
+
+	#flora-desc {
+		h4 {
+			font-size: 3.5em;
+		}
+	}
+
+	.sponsor-label {
+		text-align: center;
+		h3 {
+			font-family: $rale;
+			font-size: 1.15em;
+			font-weight: 300;
+			text-transform: uppercase;
+			letter-spacing: .5em;
+			border-bottom: solid 1px;
+			padding-bottom: 15px;
+			margin-top: 35px!important;
+		}
+	}
+	#hotel-sponsors {
+		img {
+			width: 250px;
+			margin: 40px 0;
+		}
+	}
+	#champion-sponsors {
+		img {
+			width: 200px;
+			margin: 40px 0;
+		}
+		#sponsor-hr-block {
+			img {
+				width: 150px!important;
+				margin-top: 78px;
+			}
+		}
+	}
+
+	#supporting-sponsors {
+		#sponsor-wecu {
+			img {
+				width: 184px;
+				margin: 25px 0 20px;
+			}
+		}
+		#sponsor-bham-phys-therapy {
+			img {
+				width: 220px;
+				margin: 9px 0 9px;
+			}	
+		}
+	}
+
+	#text-sponsors {
+		ul {
+		line-height: 2.5em;
+			li {
+				display: inline;
+				margin: 0 10px;
+			}
+		}
+	}
+
+
+	#main-footer {
+	 	background: black url(../assets/img/main-bg-top.jpg) no-repeat center bottom;
+		padding: 50px 0;
+		color: white;
+
+		a:hover { opacity:1;}
+		p{font-size: .8em;}
+		h1 {font-size: 2em; color: white; padding: 0 50px 50px; opacity: .7;}
+		#rebound-logo-footer {
+			width: 200px;
+			opacity: .7;
+		}
+		#padden-logo-footer {
+			width: 150px;
+			margin-bottom: 25px;
+			opacity: .7;
+		}
+		#flora-logo-footer {
+			margin-top: 45px;
+			opacity: .7;
+		}
+
+		ul {
+			line-height: 1.2;
+			text-transform: uppercase;
+			list-style: none;
+			li {
+			padding-bottom: 2px;
+			.dropdown {text-transform: none;}
+				a {
+				color: white!important;
+				font-size: .8em;
+				}
+			}
+		}
+	}
+
+	/**
+	 * 3.1 Pages
+	 * ------------------------------------
+	 */
+
+	#news-page {
+		h1 {
+			font-family: $ranger;
+			font-size: 4.5em;
+			color: $primary-color;
+			margin-bottom: 40px;
+		}
+	}
+
+	#race-director {
+		margin: 0;
+		h1 {
+			font-size: 2.75em;
+			line-height: .8em;
+		}
+		h2 {
+			font-size:1.25em;
+			font-weight: 600;
+		}
+	}
+
+	.race-start {
+		font-size: 1.5em;
+		em {
+			color: $primary-color;
+			font-size: 1.5em;
+			font-family: $ranger;
+		}
+	}
+
+	 /**
+	 * 3.11 Pages - Home
+	 * ------------------------------------
+	 */
+
+	h3{
+		color: $primary-color!important;
+	}
+
+
+	/**
+	 * 3.2 Posts
+	 * ------------------------------------
+	 */
+	.page-section {
+		h1 {
+			font-family: $ranger;
+			font-size: 4.5em;
+			color: $primary-color;
+			margin-bottom: 40px;
+		}
+	}

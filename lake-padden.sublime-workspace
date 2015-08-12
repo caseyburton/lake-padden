@@ -1,0 +1,778 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tem",
+				"template_directory_uri"
+			],
+			[
+				"gethome",
+				"get_home_url"
+			],
+			[
+				"getst",
+				"get_stylesheet_directory"
+			],
+			[
+				"style",
+				"stylesheet_directory"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backgroun",
+				"background-position"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"footer-conta",
+				"footer-contain"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"community",
+				"community-color"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"cowork",
+				"cowork-color"
+			],
+			[
+				"cow",
+				"cowork"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"rem",
+				"rem	rem-calc"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"dos",
+				"do_shortcode"
+			],
+			[
+				"do",
+				"do_shortcode"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"r",
+				"rgba"
+			],
+			[
+				"communi",
+				"community-color"
+			],
+			[
+				"lig",
+				"lighten"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"collab",
+				"collab-color"
+			],
+			[
+				"bodyf",
+				"body-font-family"
+			],
+			[
+				"bod",
+				"body-font-family"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"body",
+				"body-font-family"
+			],
+			[
+				"coll",
+				"collab-color"
+			],
+			[
+				"auto",
+				"autoplaySpeed"
+			],
+			[
+				"fontst",
+				"font-style"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"header",
+				"header-font-family"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"alert",
+				"alert-color"
+			],
+			[
+				"aler",
+				"alert-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"va",
+				"vapor"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"Mar",
+				"margin-right"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"pr",
+				"pre-line"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"pre",
+				"pre-line"
+			],
+			[
+				"mAR",
+				"margin-top"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"fotn",
+				"font-weight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": " ",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"livest",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"r",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"run",
+				"CSSLint: Run CSSLint"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"package control"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Ampps/www/run-padden/wp-content/themes/lake-padden"
+	],
+	"file_history":
+	[
+		"/D/Ampps/www/run-padden/wp-content/themes/lovely-run/scss/config/_variables.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/site/_content.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/site/_global.scss",
+		"/C/Users/Casey/Desktop/wp-config.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/site/_hero.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/site/_topbar.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/site/_footer.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/js/custom/interchange.js",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/functions.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/library/theme-support.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/header.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/footer.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/templates/home.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/parts/top-bar.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/config/_custom-settings.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/library/shortcode-event-list.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/assets/img/icons/browserconfig.xml",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/foundation.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/parts/off-canvas-menu.php",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/LiveStyle.sublime-settings",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/scss/config/_settings.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/library/interchange.php",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/js/custom/joyride-demo.js",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/js/custom/init-foundation.js",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/style.css",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/Gruntfile.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/slick.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/init-foundation.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/custom.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/init.js",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/js/vendor/bower.json",
+		"/D/Fonts/Creative_Fonts/comic-neue-1.1/font.css",
+		"/C/Users/Casey/Desktop/_global.scss",
+		"/C/Program Files (x86)/Ampps/www/bebbq/wp-content/themes/bebbq/front-page.php",
+		"/C/Users/Casey/Desktop/PyV8.sublime-package",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/theme-support.php",
+		"/C/Users/Casey/Desktop/slick.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/bower_components/foundation/js/foundation/foundation.clearing.js",
+		"/C/Users/Casey/Desktop/config.rb",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/header.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/footer.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_nav.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/top-bar.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-config.php",
+		"/C/Users/Casey/Desktop/hc-sig-casey.html",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/style.css",
+		"/C/Users/Casey/Desktop/wp-config.bak",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/enqueue-scripts.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/feed-them-social/includes/feed-them-functions.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/feed-them-social/feed-them.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/foundation.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/animate.js",
+		"/C/Users/Casey/Desktop/iatek-jquery-socialist-e31f844/examples/index.html",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/foundation.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_.socialist.scss",
+		"/C/Users/Casey/AppData/Local/Temp/Temp1_iatek-jquery-socialist-1.0.3-14-ge31f844.zip/iatek-jquery-socialist-e31f844/examples/index.html",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_slick.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/the-events-calendar-shortcode/the-events-calendar-shortcode.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_base.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/meeting-space",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/Gruntfile.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/index.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-bourbon/assets/stylesheets/_bourbon.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/config/_settings.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/foundation.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/joyride-demo.js",
+		"/C/Users/Casey/Desktop/.htaccess.orig",
+		"/C/Users/Casey/Desktop/media.php",
+		"/C/Users/Casey/Desktop/functions.php",
+		"/C/Users/Casey/Desktop/.htaccess",
+		"/C/Users/Casey/Desktop/media-template.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/jquery.slabtext.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_slick.css",
+		"/C/Users/Casey/AppData/Local/Temp/7zO667E.tmp/slick.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/package.json",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/bower_components/modernizr/feature-detects/pointerlock-api.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/search.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-sass/src/libsass/sass_util.cpp",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/grunt/internal-tasks/subgrunt.js",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/meeting-space.html",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_mixins.scss",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-default.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/page.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/front-page.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/wordpress-seo/frontend/class-breadcrumbs.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-home.php",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/uploads/desaturate.svg",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/uploads/bg-box.svg",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/uploads/workspace-logo-vert.svg",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/uploads/workspace-logo.svg",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/kitchen-sink.php",
+		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/rem-calc.sublime-snippet",
+		"/C/Program Files (x86)/Ampps/apache/htdocs/index.html",
+		"/C/Program Files (x86)/Ampps/www/workspace/.htaccess",
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/workspace.sublime-project",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/header.php",
+		"/C/Users/Casey/Desktop/style.css",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/fonts/fonts.css",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/pages/eats.html",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/fonts/stylesheet.css",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/fonts/cancan/stylesheet.css",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/fonts/squeal/fonts.css",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-config.php",
+		"/C/Users/Casey/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/home.php",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/style.css",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/page.php",
+		"/C/Program Files (x86)/Ampps/www/copper-hog/wp-content/themes/copper-hog/functions.php",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/header.php",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/bower_components/modernizr/feature-detects/css-backgroundsizecover.js",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/package.json",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/bower_components/modernizr/feature-detects/pointerlock-api.js",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/search.php",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/bower_components/modernizr/test/caniuse_files/svg-img.svg",
+		"/C/Program Files (x86)/Ampps/www/skagitfoodcoop/wp-content/themes/skagit-beets/FoundationPress/sidebar.php",
+		"/I/WORK/CLIENTS/Lake_Padden_Trail/Website/CONTENT_stacked.wordpress.2012-05-02.xml",
+		"/I/WORK/TOOLS/BACKUPS/Databases/wospet_Helio55.sql",
+		"/C/Users/Casey/Desktop/header.php",
+		"/C/Users/Casey/Desktop/theme.css",
+		"/C/Program Files (x86)/Ampps/www/ibeerblog/wp-content/themes/ibeerblog/header.php",
+		"/C/Program Files (x86)/Ampps/www/ibeerblog/wp-content/themes/ibeerblog/index.php",
+		"/C/Program Files (x86)/Ampps/www/ibeerblog/wp-content/themes/ibeerblog/content-quote.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>",
+			"C:\\Program Files (x86)\\Ampps\\www\\thedancestudio\\wp-content\\themes\\dancing-away"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"serif",
+			"medium-6 columns collapse",
+			"/",
+			"row",
+			".menu",
+			"tab",
+			"top-bar-section",
+			"mobile",
+			"ul",
+			"img",
+			"../fonts/",
+			"p",
+			"control",
+			"package",
+			"$",
+			"data-equalizer-watch",
+			"styled-list",
+			"h1",
+			"collab",
+			"charcoal",
+			"page-home ",
+			"figcaption",
+			"slick-slide",
+			"slick-slider",
+			"footer-contain",
+			"white",
+			"row-copy",
+			"'",
+			"styled-list",
+			"row-copy",
+			"medium",
+			"30",
+			"slick-slider",
+			"slick",
+			"slider",
+			"slick",
+			"slick-slide",
+			"slick-slider",
+			"button",
+			"slick",
+			"li",
+			"});\n",
+			"li",
+			"div",
+			"large",
+			"‘",
+			"”",
+			"’",
+			"‘",
+			"$page-collab",
+			"page-collab",
+			"meeting-space",
+			"home-intro",
+			"for",
+			"</label>",
+			"</span>",
+			"<span>",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"</label>",
+			"<label>",
+			"</p>",
+			"<p>",
+			"0.5",
+			"05",
+			"0.1",
+			"9",
+			"posts",
+			"bower_components",
+			"550px",
+			"important",
+			"container",
+			"2",
+			"5",
+			"300px",
+			"page-home",
+			"30",
+			"dots",
+			"h3",
+			"select",
+			"5",
+			"top-bar",
+			"header_nav",
+			"woff",
+			"”",
+			"’",
+			"‘",
+			"’",
+			"‘",
+			"sticky",
+			"5px",
+			"5",
+			".js",
+			"30px",
+			"breadcrumb_last",
+			"Image",
+			"<p>Image</p>",
+			"Image",
+			"list",
+			"row",
+			"h2",
+			"5",
+			"8",
+			"100",
+			"footer",
+			"LightItalic",
+			"-Bold",
+			"top-bar",
+			"font-weight-bold",
+			"img",
+			"row",
+			"add",
+			"white",
+			"top-bar",
+			"page",
+			"Fall",
+			"lunch",
+			"lunch_Page_1",
+			"responsive",
+			"can",
+			"averia",
+			"Averia Serif Libre",
+			"squeal",
+			"h2",
+			"left",
+			"float-left"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#{$asset-img}",
+			"merriweather",
+			"dance-class-details",
+			"rgba(237,86,75,1)",
+			"rgba(237,86,75,.8)"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.csslint_result_view":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "lake-padden.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"front-page.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Program Files (x86)\\Ampps\\www\\dance-studio\\wp-content\\themes\\dance-studio\\scss\\config\\the-dance-studio.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 747.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
