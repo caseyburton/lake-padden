@@ -74,7 +74,7 @@
     </div>
     <div id="race-intro" class="large-9 columns hide-for-small-only">
       <div id="race-intro-text" class="texture-light drop">
-        <p>The <em>Lake Padden Trail Half</em> is now home of the</p>
+        <p>The <em>Lake Padden Trail Half</em> is the 2015 &amp; 2016 home of the</p>
         <h1>USATF trail half national championship!</h1>
       </div>
     </div>
@@ -86,7 +86,7 @@
       <!-- Right Nav Section -->
       <ul class="right">
         <li id="nav-register" class="has-form">
-          <a href="https://ultrasignup.com/register.aspx?did=27603" class="alert button drop texture-light" target="_blank">Register Now!</a>
+          <a href="https://ultrasignup.com/register.aspx?did=31781" class="alert button drop texture-light" target="_blank">Register Now!</a>
         </li>
       </ul>
 
