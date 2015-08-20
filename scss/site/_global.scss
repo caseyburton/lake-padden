@@ -187,52 +187,7 @@
 	 * ----------------------------------------------------------------------------
 	 */
 
-	.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul, .top-bar-section {
-		background:transparent;
-	}
-
-	.contain-to-grid {
-		background: $primary-color url(../assets/img/top-bar-bg.jpg);
-	}
-
-	.top-bar {
-
-		ul li a {
-			font-family: $ranger;
-			text-align: center;
-			color: white;
-			font-size: 1.25em;
-			line-height: 1.5em;
-			text-decoration: none;
-			.dropdown a {
-				font-family: $rale!important;
-				font-size: 1em;
-			}
-		}
-	}
-	.top-bar-section ul li {
-		background: transparent;
-	}
-
-	.top-bar-section ul li > a.button.alert {
-		font-size: 1.1em;
-		margin-top: -1px;
-	}
-
-
-	.top-bar-section .dropdown li:not(.has-form) a:not(.button){
-		font-family: $rale!important;
-		font-size: 1em;
-		text-align: left;
-	}
-
-	 .sub-nav li a {
-	 	font-family: $ranger;
-	 	text-align: center;
-	 	color: white;
-	 	font-size: 1.5em;
-	 	line-height: 1.5em;
-	 }
+	
 
 /**
  * 3.0 Content
@@ -257,6 +212,9 @@
 
 	.home-section {
 		margin-bottom: 50px;
+		.home-hero {
+			margin: -50px -50px 0;
+		}
 		p{
 			a:hover{
 				background:$primary-color!important;
@@ -362,9 +320,9 @@
 			width: 200px;
 			margin: 40px 0;
 		}
-		#sponsor-hr-block {
+		#sponsor-bham-physical-therapy {
 			img {
-				width: 150px!important;
+				width: 350px!important;
 				margin-top: 78px;
 			}
 		}
@@ -393,6 +351,36 @@
 				margin: 0 10px;
 			}
 		}
+	}
+
+	#sponsor-brandon-nelson img {
+		width: 	275px;
+		margin-bottom: 	15px;
+	}
+
+	#sponsor-king-volvo img {
+		width: 	325px;
+		margin-bottom: 	15px;
+	}
+
+	#sponsor-fairhaven-runners img {
+		width: 	175px;
+		margin-bottom: 	15px;
+	}
+	
+	#sponsor-tcby img {
+		width: 	175px;
+		margin-bottom: 	15px;
+	}
+
+	#sponsor-datalinkwest img {
+		width: 	100px;
+		margin-bottom: 	15px;
+	}
+
+	#sponsor-trail-butter img {
+		width: 	100px;
+		margin-bottom: 	15px;
 	}
 
 
