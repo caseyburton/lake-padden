@@ -278,7 +278,7 @@ get_header(); ?>
 			<h1>Volunteer</h1>
 			<p class="sub-header large-6 column">Volunteer sign-up for the 2015 race is now open! We need some great volunteers to come help make this thing run and keep it fun! Sign-up below to come be a part of the Lake Padden Trail Half.</p>
 			<div id="volunteer-sign-up" class="large-6 column">
-				<?php echo do_shortcode( '[contact-form-7 id="1115" title="Volunteer"]' ) ?>
+				<?php echo do_shortcode( '[contact-form-7 id="1119" title="Volunteer"]' ) ?>
 			</div>
 		</div>
 	</div>
