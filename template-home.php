@@ -28,7 +28,8 @@ get_header(); ?>
 		<div class="medium-6 column">
 				<p><strong>When</strong> – Saturday, Oct 17, 2015 – 10am race start</p>
 				<p><strong>Cost</strong> - $45 -  $60 After October 1st – Race tech t-shirt available for additional $20 when registering.</p>					
-				<p><strong>Registration</strong> – 2015 registration is OPEN. Register <a href="https://ultrasignup.com/register.aspx?did=31781" title="Register for the 2014 Lake Padden Trail Half marathon at UltraSignup.com" target="_blank">HERE</a> at UltraSignup.com –  Time limit for this race will be 4 hours.</p>
+				<p><strong>Lake Padden Half Marathon Registration</strong> – 2015 registration is OPEN. Register <a href="https://ultrasignup.com/register.aspx?did=31781" title="Register for the 2014 Lake Padden Trail Half marathon at UltraSignup.com" target="_blank">HERE</a> at UltraSignup.com –  Time limit for this race will be 4 hours.</p>
+				<p><strong>Al Coyle Community Trail 5k Registration</strong> – Join the fun! Wear a costume for great prizes! Prizes, categories and registration <a href="https://ultrasignup.com/register.aspx?did=31803" target="_blank">HERE</a>!</p>
 				<p><strong>Please carpool</strong> - We encourage everyone to carpool if at all possible as parking will be very limited.</p>
 				<p><strong>Aid</strong> - There will be three aid stations each visited twice along the course that will provide water, Gu2o and plenty of encouragement.</p>
 				<p><strong>Post race</strong>  - Join the post race party lakeside for awards, recovery food, drink and friends. Massage Therapists will be on hand to do post race recovery massage.</p>
@@ -91,7 +92,6 @@ get_header(); ?>
 		<div class="large-6 column texture-light">
 			<div>
 				<h4>To Be Decided</h4>
-				<p>Best Western Lakeway Inn and Conference Center <a href="https://www.google.com/maps/place/714+Lakeway+Dr,+Bellingham,+WA+98229/data=!4m2!3m1!1s0x5485a3c1ba2d94f9:0x88fdede6e9b26672?sa=X&ved=0CB4Q8gEwAGoVChMIiq_EvaC4xwIVVC2ICh0UMALD" target="_blank">714 Lakeway Dr, Bellingham, WA 98229</a></p>
 			</div>
 		</div>
 		<div class="large-6 column texture-light">
@@ -130,7 +130,7 @@ get_header(); ?>
 			</div>
 			<div id="flora-desc" class="medium-6 column">
 				<h4 class="texture">Flora Health</h4>
-				<h5>Thanks again to Flora Health for presenting the 2014 Lake Padden Trail Half as our title sponsor!</h5>
+				<h5>Thanks again to Flora Health for presenting the 2015 Lake Padden Trail Half as our title sponsor!</h5>
 				<p>Flora manufactures and distributes premium health products prepared with botanicals from sustainable, organic farmlands. Our award-winning supplements blend traditional wisdom and modern science by incorporating full-spectrum plant constituents and utilizing certified organic, non-GMO, gluten-free, soy- free, and kosher materials whenever possible.</p>
 				<p>Visit <a href="http://www.florahealth.com/" target="_blank">www.florahealth.com</a>	
 			</div>
@@ -150,7 +150,7 @@ get_header(); ?>
 		<div id="champion-sponsors" class="row">
 			<div class="sponsor-label"><h3>Champion Sponsors</h3></div>
 			<div id="sponsor-nw-sleep" class="medium-6 column texture">
-				<a href="http://www.nwsleepsolutions.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nw-sleep-logo.png" alt=""></a>
+				<a href="http://www.nwsleepsolutions.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/nw-sleep-solutions-logo.png" alt=""></a>
 				<h4 class="texture">Northwest Sleep Solutions</h4>
 				<p>Many thanks to Scott and NW Sleep Solutions for being a champion sponsor!</p>
 				<p>Visit them online at	<a href="http://www.nwsleepsolutions.com" target="_blank">www.nwsleepsolutions.com</a>		
@@ -195,12 +195,6 @@ get_header(); ?>
 
 		<div id="supporting-sponsors" class="row">
 			<div class="sponsor-label"><h3>Supporting Sponsors</h3></div>
-			<div id="sponsor-superfeet" class="medium-4 column texture">
-				<a href="http://www.superfeet.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/superfeet-logo.gif" alt=""></a>
-				<h4 class="texture">Superfeet</h4>
-				<p>Muchos gracias to the fine folks at Superfeet!</p>
-				<p>Visit them online at	<a href="http://www.superfeet.com/" target="_blank">www.superfeet.com</a>		
-			</div>
 			<div id="sponsor-wecu" class="medium-4 column">
 				<a href="http://www.wecu.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/wecu-logo.jpg" alt=""></a>
 				<h4 class="texture">Whatcom Educational Credit Union</h4>
@@ -213,15 +207,15 @@ get_header(); ?>
 				<p>Much appreciation to Fairhaven Runners for supporting a great cause!</p>
 				<p>Visit <a href="http://www.fairhavenrunners.com/" target="_blank">www.fairhavenrunners.com</a></p>
 			</div>
-
-			<hr>
-
 			<div id="sponsor-tcby" class="medium-4 column">
 				<a href="http://www.tcby.com/home/barkleyvillage" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tcby.png" alt=""></a>
 				<h4 class="texture">TCBY of Barkley Village</h4>
 				<p>A sweet and yummy thank you to tcby of Barkley Village!</p>
 				<p>Visit <a href="http://www.tcby.com/home/barkleyvillage" target="_blank">http://www.tcby.com/home/barkleyvillage</a></p>
 			</div>
+
+			<hr>
+
 			<div id="sponsor-datalinkwest" class="medium-4 column">
 				<a href="http://www.datalinkwest.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/datalinkwest.png" alt=""></a>
 				<h4 class="texture">Data Link West</h4>
@@ -234,19 +228,15 @@ get_header(); ?>
 				<p>A huge thanks to the nutty guys at Trail Butter for their support!</p>
 				<p>Visit <a href="http://www.trailbutter.com/" target="_blank">www.trailbutter.com</a></p>
 			</div>
+			<div id="bellingham-parks" class="medium-4 column">
+				<a href="http://www.cob.org/government/departments/parks/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bham-parks-rec.png" alt=""></a>
+				<h4 class="texture">Bellingham Parks and Recreation</h4>
+				<p>A HUGE thanks to the fine folks in the parks department!</p>
+				<p>Visit <a href="http://www.cob.org/government/departments/parks/" target="_blank">http://www.cob.org/government/departments/parks/</a></p>
+			</div>
 
 			<hr>
 
-			<div id="bellingham-parks" >
-				<div class="medium-4 columns">
-					<a href="http://www.cob.org/government/departments/parks/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bham-parks-rec.png" alt=""></a>
-				</div>
-				<div class="medium-8 columns">
-					<h4 class="texture">Bellingham Parks and Recreation</h4>
-					<p>A HUGE thanks to the fine folks in the parks department!</p>
-					<p>Visit <a href="http://www.cob.org/government/departments/parks/" target="_blank">http://www.cob.org/government/departments/parks/</a></p>
-				</div>
-			</div>
 			<hr>
 			<div id="text-sponsors" class="large-12 column text-center highlight-box">
 				<p class="sub-header">Many thanks to our friends who support us:</p>
