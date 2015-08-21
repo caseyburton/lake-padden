@@ -259,7 +259,7 @@
 			"file": "template-home.php",
 			"settings":
 			{
-				"buffer_size": 19674,
+				"buffer_size": 20202,
 				"line_ending": "Unix"
 			}
 		},
@@ -390,7 +390,6 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Ampps/www/run-padden/wp-content/themes/lake-padden",
 		"/D/Ampps/www/run-padden/wp-content/themes/lake-padden/scss",
 		"/D/Ampps/www/run-padden/wp-content/themes/lake-padden/scss/config",
 		"/D/Ampps/www/run-padden/wp-content/themes/lake-padden/scss/site"
@@ -544,9 +543,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"registration",
-			"reg",
-			"registration",
 			"fairhavenrunners",
 			"Bellingham Physical Therapy",
 			"bellinghamphysicaltherapy",
@@ -671,7 +667,10 @@
 			"top-bar",
 			"page",
 			"Fall",
-			"lunch"
+			"lunch",
+			"lunch_Page_1",
+			"responsive",
+			"can"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -733,15 +732,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19674,
+						"buffer_size": 20202,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11712,
-								11712
+								19494,
+								19494
 							]
 						],
 						"settings":
@@ -749,8 +748,8 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 188.0,
-						"translation.y": 1877.0,
+						"translation.x": 0.0,
+						"translation.y": 3804.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -769,8 +768,8 @@
 						"selection":
 						[
 							[
-								857,
-								857
+								1279,
+								1279
 							]
 						],
 						"settings":
@@ -908,7 +907,7 @@
 		"cols":
 		[
 			0.0,
-			0.643839154989,
+			0.808059979587,
 			1.0
 		],
 		"rows":
@@ -979,7 +978,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 249.0,
 	"status_bar_visible": true,
 	"template_settings":
