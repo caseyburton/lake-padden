@@ -130,7 +130,7 @@ get_header(); ?>
 			</div>
 			<div id="flora-desc" class="medium-6 column">
 				<h4 class="texture">Flora Health</h4>
-				<h5>Thanks again to Flora Health for presenting the 2015 Lake Padden Trail Half as our title sponsor!</h5>
+				<h5>Thanks again to Flora Health for presenting the 2015 &amp; 2016 Lake Padden Trail Half as our title sponsor!</h5>
 				<p>Flora manufactures and distributes premium health products prepared with botanicals from sustainable, organic farmlands. Our award-winning supplements blend traditional wisdom and modern science by incorporating full-spectrum plant constituents and utilizing certified organic, non-GMO, gluten-free, soy- free, and kosher materials whenever possible.</p>
 				<p>Visit <a href="http://www.florahealth.com/" target="_blank">www.florahealth.com</a>	
 			</div>
