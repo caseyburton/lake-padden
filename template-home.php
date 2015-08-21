@@ -211,7 +211,7 @@ get_header(); ?>
 				<a href="http://www.tcby.com/home/barkleyvillage" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/tcby.png" alt=""></a>
 				<h4 class="texture">TCBY of Barkley Village</h4>
 				<p>A sweet and yummy thank you to tcby of Barkley Village!</p>
-				<p>Visit <a href="http://www.tcby.com/home/barkleyvillage" target="_blank">http://www.tcby.com/home/barkleyvillage</a></p>
+				<p>Visit <a href="http://www.tcby.com/home/barkleyvillage" target="_blank">TCBY Barkley</a></p>
 			</div>
 
 			<hr>
@@ -232,7 +232,7 @@ get_header(); ?>
 				<a href="http://www.cob.org/government/departments/parks/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/bham-parks-rec.png" alt=""></a>
 				<h4 class="texture">Bellingham Parks and Recreation</h4>
 				<p>A HUGE thanks to the fine folks in the parks department!</p>
-				<p>Visit <a href="http://www.cob.org/government/departments/parks/" target="_blank">http://www.cob.org/government/departments/parks/</a></p>
+				<p>Visit <a href="http://www.cob.org/government/departments/parks/" target="_blank">Bellingham Parks</a></p>
 			</div>
 
 			<hr>
